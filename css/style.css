@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color:black;
+  font-size: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.site-title a {
+  width: 175px;
+  display: block;
+  line-height: 1px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 30px;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 20px 40px;
+  z-index: 10;
+  background-color: white;
+}
+
+
+#header-nav {
+  position: fixed;
+  left: -300px;
+  top: 0;
+  z-index: 20;
+  opacity: 0;
+  color:  white;
+  transition: all 0.5s;
+
+}
+
+
+#main {
+  padding-top: 80px;
+}
+
+/* video */
+
+#mv-video {
+  width: 100%;
+}
+
+
+
+
+
+/* feature */
+#feature {
+  max-width: 1240px;
+  padding: 100px 16px 50px 16px;
+  margin: -50px auto 10px auto;
+}
+
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  gap: 26px;
+}
+
+.feature-container {
+  transition: all  0.3s ease;
+  box-shadow: 0 0 8px 4px #ccc;
+}
+
+.feature-container img {
+  width: 385px;
+  height: 257px;
+  vertical-align: top;
+  object-fit: cover;
+}
+
+.feature-box {
+  padding: 30px;
+  height: 187px;
+}
+
+.feature-part {
+  margin-bottom: 20px;
+}
+
+.feature-text {
+  font-size: 1.44rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.feature-date {
+  text-align: right;
+}
+
