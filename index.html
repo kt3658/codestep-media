@@ -5,9 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEDIA</title>
-
+  <link rel="shortcut icon" href="img/favicon.ico">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  
 </head>
 <body>
   
@@ -49,16 +53,16 @@
     <!-- pickup -->
     <section id="pickup">
       <h2 class="section-title">PICK UP</h2>
-      <ul>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
-        <li><img src="" alt=""></li>
+      <ul class="pickup-container">
+        <li><img src="img/pickup1.jpeg" alt="pik1"></li>
+        <li><img src="img/pickup2.jpg" alt="pik2"></li>
+        <li><img src="img/pickup3.jpg" alt="pik3"></li>
+        <li><img src="img/pickup4.jpg" alt="pik4"></li>
+        <li><img src="img/pickup5.jpg" alt="pik5"></li>
+        <li><img src="img/pickup6.jpg" alt="pik6"></li>
+        <li><img src="img/pickup7.jpg" alt="pik7"></li>
+        <li><img src="img/pickup8.jpg" alt="pik8"></li>
+        <li><img src="img/pickup9.jpg" alt="pik9"></li>
       </ul>
     </section>
 
@@ -67,7 +71,7 @@
       <h2 class="section-title">FEATURE</h2>
       <div class="feature-grid">
         <div class="feature-container">
-          <img src="img/media1.jpg" alt="feature1">
+          <img class="fadein"src="img/media1.jpg" alt="feature1">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -76,7 +80,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media2.jpeg" alt="feature2">
+          <img class="fadein"src="img/media2.jpeg" alt="feature2">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -85,7 +89,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media3.png" alt="feature3">
+          <img class="fadein"src="img/media3.png" alt="feature3">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -94,7 +98,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media4.jpg" alt="feature4">
+          <img class="fadein"src="img/media4.jpg" alt="feature4">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -103,7 +107,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media5.jpeg" alt="feature5">
+          <img class="fadein"src="img/media5.jpeg" alt="feature5">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -112,7 +116,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media6.png" alt="feature6">
+          <img class="fadein"src="img/media6.png" alt="feature6">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -121,7 +125,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media7.jpg" alt="feature7">
+          <img class="fadein"src="img/media7.jpg" alt="feature7">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -130,7 +134,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media8.jpg" alt="feature8">
+          <img class="fadein"src="img/media8.jpg" alt="feature8">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -139,7 +143,7 @@
         </div>
         
         <div class="feature-container">
-          <img src="img/media9.jpg" alt="feature9">
+          <img class="fadein"src="img/media9.jpg" alt="feature9">
           <div class="feature-box"> 
             <p class="feature-part">category</p>
             <p class="feature-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -147,9 +151,38 @@
           </div> 
         </div>
       </div>
-
     </section>
-  </main>
 
+    <!-- contact -->
+    <section id="contact">
+      <h2 class="section-title">CONTACT</h2>
+        <div class="contact-container">
+          <div class="contact-left">
+            <p>テキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        
+          <div class="contact-right">
+            <form action="#">
+              <dl>
+                <dt><label for="name">Name:</label></dt>
+                <dd><input type="text" id="name" name="your-name"></dd>
+                <dt><label for="email">Mail:</label></dt>
+                <dd><input type="email" id="email" name="your-email"></dd>
+                <dt><label for="message">Message:</label></dt>
+                <dd><textarea id="message" name="your-message"></textarea></dd>
+              </dl>
+              <div class="contact-button"><input type="submit" value="SEND"></div>
+            </form> 
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer id="footer">
+      <p>© Sneakers</p>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
