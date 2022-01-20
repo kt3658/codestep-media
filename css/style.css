@@ -253,19 +253,21 @@ a {
 
 /* contact */
 #contact {
-  max-width: 1240px;
-  padding: 50px 16px;
+  
+  padding: 50px 0;
   font-size: 1.44rem;
   background-color: black;
   color: white;
-  margin: 0 auto;
+  
   
 }
 
 .contact-container {
   display: flex;
   justify-content: space-between;
-  
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 16px;
 }
 
 .contact-left {
